@@ -83,6 +83,10 @@ dist
 #svn
 .svn
 
+#cordova
+platforms
+plugins
+
 #Projektspezifisch
 sascha_modules
 vorlage
