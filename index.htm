@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="description" content="MorseRunner" />
+    <title>MorseRunner</title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+    <meta http-equiv="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+    <script src="js/phaser.min.js"></script>
+    <script src="js/canvas.js"></script>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('deviceready', function() 
+            console.log("Cordova is initialized and ready!");
+        }, false);
+    </script>
+    
+    <script src="states/Boot.js"></script>
+    <script src="states/GameState.js"></script>
+    <script src="states/Menu.js"></script>
+    <script src="states/LevelEditor.js"></script>
+    <script src="states/Over.js"></script>
+    <script src="states/Preload.js"></script>
+    <script src="states/Win.js"></script>
+    <script src="states/SelectLevel.js"></script>
+    <script src="states/Final.js"></script>
+    <script src="MorseRider.js"></script>
+  
+  <style>
+    body { 
+      padding: 0px;
+      margin: 0px;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+    
+</body>
+</html>
