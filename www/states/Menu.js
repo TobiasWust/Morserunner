@@ -40,6 +40,6 @@ MenuState.prototype = {
         },this); 
       }
       
-      game.add.text(16, game.height-32, 'V1.0', { fill: '#fff' });    
+      game.add.text(16, game.height-32, 'V1.3', { fill: '#fff' });    
    }, 
 };
